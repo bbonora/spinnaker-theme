@@ -1,0 +1,21 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+    "features": {
+        "ghcr.io/shyim/devcontainers-features/php:latest": {
+            "version": "8.1",
+            "extensionsExtra": "xdebug redis gd mbstring imagick"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "DavidAnson.vscode-markdownlint",
+                "GitHub.vscode-github-actions",
+                "mblode.twig-language-2",
+                "xdebug.php-pack",
+                "MehediDracula.php-namespace-resolver",
+                "nadim-vscode.symfony-code-snippets"
+            ]
+        }
+    }
+}
