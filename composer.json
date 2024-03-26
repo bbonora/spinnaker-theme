@@ -1,0 +1,23 @@
+{
+  "name": "bbonora/theme-spinnaker",
+  "type": "cecil-theme",
+  "description": "Cecil Theme",
+  "keywords": ["Cecil", "theme"],
+  "license": "MIT",
+  "require": {
+    "cecil/theme-installer": "^1.4|^2.0"
+  },
+  "extra": {
+    "name": "spinnaker",
+    "branch-alias": {
+      "dev-master": "2.x-dev"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "allow-plugins": {
+      "cecil/theme-installer": true
+    }
+  }
+}
